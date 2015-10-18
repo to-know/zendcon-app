@@ -1,0 +1,29 @@
+$btn-font-weight: 300;
+$font-family-sans-serif: 'Lato';
+$navbar-height: 65px;
+
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+	font-weight: 300;
+}
+
+.fa-btn {
+	margin-right: 5px;
+}
+
+.panel-heading {
+	font-size: 18px;
+}
+
+.vote-count {
+	border: 2px solid $brand-success;
+	border-radius: 4px;
+	color: $brand-success;
+	font-size: 18px;
+	padding: 10px;
+}
+
+[v-cloak] {
+    display: none;
+}
